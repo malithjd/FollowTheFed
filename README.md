@@ -1,6 +1,6 @@
 # Follow the Fed
 
-### ▶ [**View the interactive story on Tableau Public**](https://public.tableau.com/views/FollowTheFed-StoryBoard/FullStory)
+### ▶ [**View the interactive story on Tableau Public**](https://public.tableau.com/app/profile/malith.jayasinghelage.don/viz/FollowTheFed-StoryBoard/FullStory)
 
 **When the Federal Reserve moves the interest rate, how long does it take to reach your mortgage, your credit card, and your portfolio — and which parts of the economy feel it first?**
 
@@ -25,7 +25,7 @@ This project turns that question into a reproducible data pipeline and a Tableau
 | **A daily backbone table** | 3,855 rows × 31 columns — one row per calendar day, every indicator present on every row |
 | **An event-study engine** | 1,250 rows measuring how 5 rate/index indicators moved 30/60/90 days after each decision |
 | **A sector reaction table** | 1,518 rows of sector-ETF returns after each decision, ready for a heatmap |
-| **A visual story** | A published Tableau story board built on those CSVs — [view it live](https://public.tableau.com/views/FollowTheFed-StoryBoard/FullStory) |
+| **A visual story** | A published Tableau story board built on those CSVs — [view it live](https://public.tableau.com/app/profile/malith.jayasinghelage.don/viz/FollowTheFed-StoryBoard/FullStory) |
 
 ---
 
@@ -171,7 +171,7 @@ FollowTheFed/
 - [x] Transform — daily spine, forward-fill, ETF and calendar joins, master table
 - [x] Derive — ripple engine and sector engine
 - [x] Load — five analysis-ready CSVs
-- [x] Tableau story — [published to Tableau Public](https://public.tableau.com/views/FollowTheFed-StoryBoard/FullStory); assets in `Story/`
+- [x] Tableau story — [published to Tableau Public](https://public.tableau.com/app/profile/malith.jayasinghelage.don/viz/FollowTheFed-StoryBoard/FullStory); assets in `Story/`
 - [ ] Extract notebook logic into `src/` modules with tests in `tests/`
 
 ### Known limitations
