@@ -6,7 +6,7 @@
 
 This project turns that question into a reproducible data pipeline and a Tableau story. It pulls ~10.5 years of U.S. macro and market data from two public APIs, aligns 13 economic series that publish on four different schedules onto a single daily grid, and runs an event study around all **85 FOMC meetings** from October 2015 to March 2026.
 
-*Data visualization final project — M.S. coursework. Built end to end: sourcing, pipeline, analysis, visual design.*
+*Data visualization final project — M.S. coursework, built end to end by a team of two: sourcing, pipeline, analysis, visual design. See [Team](#team).*
 
 ---
 
@@ -182,10 +182,19 @@ FollowTheFed/
 
 ---
 
-## License & author
+## Team
+
+A two-person project. Both authors contributed across sourcing, pipeline design, analysis, and the visual story.
+
+| | |
+|---|---|
+| **Malith Jayasinghe** | M.S. Candidate, Fordham University · [github.com/malithjd](https://github.com/malithjd) |
+| **Shreeyukta Aryal** | M.S. Candidate, Fordham University |
+
+---
+
+## License & credits
 
 MIT — see [LICENSE](LICENSE).
 
-**Malith Jayasinghe** · [github.com/malithjd](https://github.com/malithjd)
-
-Data courtesy of the [Federal Reserve Bank of St. Louis (FRED)](https://fred.stlouisfed.org/) and Yahoo Finance. Not investment advice.
+Data courtesy of the [Federal Reserve Bank of St. Louis (FRED)](https://fred.stlouisfed.org/) and Yahoo Finance. FOMC reference material from [federalreserve.gov](https://www.federalreserve.gov/). Not investment advice.
